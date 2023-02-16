@@ -1,0 +1,40 @@
+.buttons{
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid #ff0000; */
+}
+.buttons h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.button-group{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-1{
+    text-align: center;
+    width: 25%;
+    height: 50px;
+    border: 2px solid rgb(1, 78, 108);
+    border-radius: 10px;
+    background-color: rgb(1,78,108);
+}
+.btn-1 button{
+    border: none;
+    color: white;
+    background: none;
+}
+@media only screen and (max-width:500px) {
+    .button-group{
+        flex-direction: column;
+    }
+    .btn-1{
+        width: 60%;
+        height: 40px;
+        margin: 10px;
+    }
+}
